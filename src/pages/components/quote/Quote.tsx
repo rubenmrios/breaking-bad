@@ -2,8 +2,19 @@ import { Col, Card } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 import { ButtonRefreshQuote } from "../../components";
 
+ interface IQuote {
+  quote_id: number;
+  quote: string;
+  author: string;
+  series: string;
+}
 
-const Quote = ({ quote, resfresQuote }) => {
+interface IQuotes {
+  quote: IQuote[];
+  resfresQuote: any;
+}
+
+const Quote: React.FC<IQuotes>  = ({ quote, resfresQuote }) => {
   const { t } = useTranslation();
 
   return (
