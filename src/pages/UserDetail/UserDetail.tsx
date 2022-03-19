@@ -16,7 +16,7 @@ const UserDetail = () => {
 
   useEffect(() => {
     dispatch(fetchUserDetailRequest(id));
-  }, []);
+  }, [dispatch,id]);
 
   const resfresQuote = () =>{
     dispatch(fetchUserQuoteRequest(user[0]));
