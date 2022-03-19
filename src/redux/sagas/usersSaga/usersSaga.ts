@@ -2,7 +2,6 @@ import axios from "axios";
 import { all, call, put, takeLatest } from "redux-saga/effects";
 import { IUser,IQuote } from "../../models";
 import {
-  fetchUsersRequest,
   fetchUsersSuccess,
     fetchUsersFailure,
     fetchUserDetailSuccess,
@@ -26,6 +25,7 @@ const getUsers = async () =>{
    return response
 };
 const getUserDetail = async (payload):Promise<IUser> =>{
+  console.log(payload)
 
   const {data}= await axios.get<IUser>(`https://www.breakingbadapi.com/api/characters/${payload.payload}`);
    return data

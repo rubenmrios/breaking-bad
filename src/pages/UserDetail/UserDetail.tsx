@@ -9,7 +9,7 @@ import {Quote,UserInformation,ButtonRefreshQuote,Tittle } from "../components";
 
 const UserDetail = () => {
   const dispatch = useDispatch();
-  const { pending, user,quote, error } = useSelector(
+  const {  user,quote } = useSelector(
     (state: RootState) => state.users
   );
   const { id } = useParams() ;

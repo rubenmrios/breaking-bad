@@ -37,7 +37,7 @@ export const fetchUsersFailure = (
 });
 
 //User detail
-export const fetchUserDetailRequest = (payload): FetchUserDetailRequest => ({
+export const fetchUserDetailRequest = (payload:any): FetchUserDetailRequest => ({
   type: userDetailTypes.FETCH_USER_DETAIL_REQUEST,
   payload
 });

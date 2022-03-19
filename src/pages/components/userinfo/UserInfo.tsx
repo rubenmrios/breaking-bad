@@ -1,4 +1,4 @@
-import { Card, Button,Col } from "react-bootstrap";
+import { Card, Col } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 import { IUser } from "../../../redux/models";
 

@@ -13,7 +13,7 @@ const Users = () => {
   );
   useEffect(() => {
     dispatch(fetchUsersRequest());
-  }, []);
+  }, [dispatch]);
 
 
   return (

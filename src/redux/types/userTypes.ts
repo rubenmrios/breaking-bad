@@ -38,7 +38,7 @@ export interface FetchUserDetailSuccessPayload {
 }
 export interface FetchUserDetailRequest {
   type:  userDetailTypes.FETCH_USER_DETAIL_REQUEST,
-  payload:string
+  payload:number
 }
 
 export type FetchUserDetailSuccess = {
