@@ -1,0 +1,21 @@
+.navbar .container{
+    border-bottom: 1px solid grey;
+}
+.navbar-nav{
+    display: flex !important;
+    justify-content: flex-end !important;
+    align-items: center !important;
+    flex-direction: row !important;
+    width: 100% !important;
+}
+.navbar-nav a { 
+ margin-left: 3%;
+ margin-right: 3%;
+ text-decoration: none;
+ text-transform: uppercase;
+ color:white;
+ font-weight: 600;
+}
+.navbar-nav a:hover {
+    color: #b79a0a;
+}

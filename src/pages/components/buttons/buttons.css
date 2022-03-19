@@ -1,0 +1,9 @@
+.buttonLanguage{
+    color: #fff;
+    background-color: transparent !important;
+    border-color: unset !important;
+    width: 50px !important;
+}
+.buttonLanguage img{
+    width: 100%;
+}

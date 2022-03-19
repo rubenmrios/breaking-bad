@@ -1,0 +1,13 @@
+{
+  "USER_TITLE": "Lista de usuarios Breaking Bad",
+  "USER__DETAIL_TITLE": "Detalle de usuario",
+  "HOME_BUTTON_LINK": "Ir a la lista de usuarios de Breaking Bad",
+  "NAME_USER": "Nombre : ",
+  "CATEGORY_USER": "Serie : ",
+  "NICK_USER": "Apodo : ",
+  "BIRTHDAY_USER": "Cumpleaños : ",
+  "REAL_NAME_USER": "Nombre real : ",
+  "BUTTON_QUOTE_NAME": "Buscar cita ",
+  "BUTTON_QUOTE_AUTHOR": "Autor : ",
+  "BUTTON_QUOTE_QUOTE": "Cita : "
+  }
