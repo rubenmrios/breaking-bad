@@ -26,8 +26,8 @@ const Quote: React.FC<IQuotes>  = ({ quote, resfresQuote }) => {
             className="card-quote-detail mb-3 card shadow-sm border-0 rounded"
           >
             <Card.Body className="">
-              <Card.Title>{t("BUTTON_QUOTE_AUTHOR")}: {quote[0].author}</Card.Title>
-              <Card.Text>{t("BUTTON_QUOTE_QUOTE")}: {quote[0].quote}</Card.Text>
+              <Card.Title>{t("BUTTON_QUOTE_AUTHOR")} {quote[0].author}</Card.Title>
+              <Card.Text>{t("BUTTON_QUOTE_QUOTE")} {quote[0].quote}</Card.Text>
               <ButtonRefreshQuote resfresQuote={resfresQuote} ></ButtonRefreshQuote>
             </Card.Body>
           </Card>
