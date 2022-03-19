@@ -8,7 +8,9 @@
 }
 .tittle-home a {
     text-decoration: none;
-    font-size: 3rem;
+    text-align: center;
     color: #b79a0a;
-    text-transform: uppercase
+    text-transform: uppercase;
+    border: 1px solid;
+    padding: 1%;
 }
