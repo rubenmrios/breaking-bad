@@ -26,7 +26,6 @@ Construye la aplicación para producción en la carpeta `build`.<br>
 
 Agrupa correctamente React en modo de producción y optimiza la compilación para obtener el mejor rendimiento.
 
-
 ## Construido con
 
 - [React](https://es.reactjs.org/) - El framework web usado
