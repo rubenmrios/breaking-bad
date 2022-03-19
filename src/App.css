@@ -1,7 +1,7 @@
 .container-fluid{
   background-image: url("../public/walter-white-de-breaking-bad-3695.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: right;
   background-repeat: no-repeat;
   min-height: 100vh!important;
   background-attachment: fixed;
