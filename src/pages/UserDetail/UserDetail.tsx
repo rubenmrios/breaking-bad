@@ -29,13 +29,17 @@ const UserDetail = () => {
         </div>
       </Col>
         <UserInformation user={user[0]} />
-        <Col>
 
-      
+        {!quote[0] ? (
+        <Col>
           <ButtonRefreshQuote resfresQuote={resfresQuote}></ButtonRefreshQuote>
-       
-        </Col>
+
+          </Col>
+        ):(
+
         <Quote quote={quote} resfresQuote={resfresQuote}/>
+        )}
+       
     </Row>
   );
 };
