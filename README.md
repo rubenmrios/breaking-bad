@@ -22,7 +22,7 @@ Abre [http://localhost:3000] para la vista en el navegador
 
 Construye la aplicación para producción en la carpeta `build`.<br>
 
-`yarn build` 
+`npm run build` 
 
 Agrupa correctamente React en modo de producción y optimiza la compilación para obtener el mejor rendimiento.
 

@@ -1,13 +1,7 @@
 import { IUser,IQuote } from "../models";
 import { usersTypes, userDetailTypes,userQuoteTypes } from "../actiontypes";
 
-export interface UsersState {
-  pending: boolean;
-  users: IUser[];
-  user:[],
-  quote:IQuote[],
-  error: string;
-}
+
 
 //Users
 export interface FetchUsersSuccessPayload {

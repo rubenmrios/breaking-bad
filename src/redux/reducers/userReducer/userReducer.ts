@@ -1,7 +1,8 @@
+//Este archivo llama a a las actionTypes y en funcion que acción se ejecute cambia el estado de una forma u otra
 import { usersTypes, userDetailTypes, userQuoteTypes } from "../../actiontypes";
-import { UsersActions, UsersState } from "../../types/userTypes";
+import { UsersActions } from "../../types/userTypes";
 
-const initialState: UsersState = {
+const initialState = {
   pending: false,
   users: [],
   user: [],

@@ -11,7 +11,7 @@ import { ButtonRefreshQuote } from "../../components";
 
 interface IQuotes {
   quote: IQuote[];
-  resfresQuote: any;
+  resfresQuote: ()=>void;
 }
 
 const Quote: React.FC<IQuotes>  = ({ quote, resfresQuote }) => {
@@ -20,7 +20,7 @@ const Quote: React.FC<IQuotes>  = ({ quote, resfresQuote }) => {
   return (
     <>
    {quote[0] && (
-        <Col xs={12} md={6} key={quote[0].quote_id} className="df">
+        <Col xs={12}  md={6} key={quote[0].quote_id} className="df mt-2">
           <Card
             style={{ width: "18rem" }}
             className="card-quote-detail mb-3 card shadow-sm border-0 rounded"

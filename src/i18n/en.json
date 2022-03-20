@@ -9,7 +9,8 @@
     "REAL_NAME_USER": "Real name : ",
     "BUTTON_QUOTE_NAME": "Search quote ",
     "BUTTON_QUOTE_AUTHOR": "Author : ",
-    "BUTTON_QUOTE_QUOTE": "Quote : "
+    "BUTTON_QUOTE_QUOTE": "Quote : ",
+    "BUTTON_CARD_DETAIL": "View detail"
 
 
   }
